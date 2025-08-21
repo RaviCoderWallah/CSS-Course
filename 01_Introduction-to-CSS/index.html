@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introduction to CSS</title>
+
+    <!-- external css link file  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- internal css  -->
+     <style>
+        .footer-para{
+            color: chocolate;
+            font-size: 40px;
+        }
+     </style>
+
 </head>
+
 <body>
-    
+    <header>
+        <!-- inline css  -->
+        <h1 style="color: red">Introduction to CSS - styled by inline css </h1>
+    </header>
+
+    <main>
+        <article>
+            <h3 class="external">Styled by External CSS </h3>
+        </article>
+    </main>
+
+    <footer>
+        <p class="footer-para">This is footer para style by internal css</p>
+    </footer>
+
 </body>
+
 </html>
