@@ -1,0 +1,81 @@
+
+/* Universal Selector  */
+/* *{
+    color: red;
+} */
+
+
+/* type selectors  */
+/* h1{
+    color: purple;
+}
+
+p{
+    background-color: red;
+} */
+
+
+/* class selectors  */
+
+/* .heading{
+    background-color: black ;
+    color: white;
+} */
+
+/* id selectors  */
+/* #subheading{
+    color: blue;
+} */
+
+
+/* Group selectors  */
+/* h1, h2, h3{
+    color: red;
+} */
+
+
+
+/* Combinator Selectors */
+/* 1. Descendant  */
+ 
+/* .parent h2{
+    color: red;
+} */
+
+
+/* 2. Child  */
+/* .parent > h2{
+    color: red;
+} */
+
+
+/* 3. Adjacent Sibling (A + B) */
+
+/* h2 + p{
+    color: blue;
+} */
+
+
+/* 4. General Sibling (A ~ B) */
+
+/* h2 ~ p{
+    color: red;
+} */
+
+
+/* Attribue Selectors */
+/* [class="heading"]{
+    color: red;
+}
+
+[type="text"]{
+    outline: 2px solid red;
+} */
+
+
+
+
+
+
+
+
