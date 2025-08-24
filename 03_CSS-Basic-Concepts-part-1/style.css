@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+
+
+.card{
+    max-width: 400px;
+    background-color: rgb(40, 40, 40);
+    margin: auto;
+}
+
+hr{
+    height: 3px;
+    max-width: 350px;
+    background-color: red;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    color: pink;
+}
+
+p{
+    color: rgb(189, 189, 254);
+}
+
+button{
+    background-color: red;
+    color: white;
+}
