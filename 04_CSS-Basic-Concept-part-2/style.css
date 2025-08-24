@@ -1,0 +1,61 @@
+
+/* font family  */
+
+
+html{
+  font-family: "Poppins", sans-serif;
+}
+
+.main-heading{
+    color: black;
+         font-size: 80px;
+     text-align: center;
+     text-decoration:overline;
+     text-transform: uppercase;
+     /* writing-mode: vertical-lr; */
+
+     text-shadow: 3px 5px 5px  rgb(135, 135, 135);
+
+}
+
+
+
+/* font-weight  */
+
+p{
+    font-weight: bolder;
+    /* width: 400px; */
+    /* background-color: lightblue; */
+    /* word-break: break-all; */
+
+
+    /* line-height: 3; */
+    /* letter-spacing: 1px; */
+    /* word-spacing: 10px ; */
+
+}
+
+
+#heading-3{
+    text-align: right;
+}
+
+/* font-style  */
+
+#sub-heading{
+    font-style: italic;
+
+}
+
+#special-heading{
+    font-variant: small-caps;
+}
+
+
+.box{
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    /* box-shadow: 10px 12px 10px rgba(128, 128, 128, 0.431); */
+box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
