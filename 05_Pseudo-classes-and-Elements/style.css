@@ -1,0 +1,104 @@
+/* hover state */
+
+/* a:hover{
+  background-color: red;
+  color: white;
+}
+
+button{
+   font-size: 25px;
+   background-color: black;
+   color: orangered;
+}
+
+button:hover{
+   color: black;
+   background-color: orangered;
+} */
+
+
+/* active state  */
+
+/* a:active{
+   color: black;
+   background-color: orangered;
+} */
+
+/* focus state  */
+
+/* input[type="text"]:focus{
+  background-color: orangered;
+  color: black;
+} */
+
+
+/* vistited pseduo class */
+/* a:visited{
+   color: orange;
+   background-color: black;
+} */
+
+/* section:target{
+   background-color: black;
+   color: orangered;
+}
+
+input:required{
+   background-color: yellow;
+}
+
+input:disabled{
+   background-color: orangered;
+} */
+
+
+/* h2:first-child{
+   color: red;
+} */
+
+/* h2:last-child{
+   color: purple;
+} */
+
+
+/* li:nth-child(3){
+   color: red;
+} */
+
+/* li:nth-last-child(3){
+   color: red;
+} */
+
+
+/* pseudo elements  */
+
+.para::first-letter{
+   color: red;
+   font-size: 30px;
+}
+
+.para::first-line{
+   font-weight: bold;
+}
+
+.para::selection{
+   background-color: rgb(255, 0, 0);
+   color: white;
+}
+
+input::placeholder{
+   color: red;
+}
+
+li::marker{
+   color: red;
+   font-size: 20px;
+}
+
+.subheading::before{
+   content: "😊";
+}
+
+.subheading::after{
+   content: "😊"
+}
