@@ -1,0 +1,44 @@
+/* Example 1: Cascade (later rule wins) */
+.cascade {
+    color: blue;
+}
+
+.cascade {
+    color: red;
+    /* later wins */
+}
+
+/* Example 2: Specificity */
+p.specificity {
+    color: green;
+    /* element + class */
+}
+
+.specificity {
+    color: orange;
+    /* class */
+}
+
+#unique {
+    color: purple;
+    /* id has higher specificity */
+}
+
+/* Example 3: Inheritance */
+.parent {
+    color: brown;
+}
+
+.child {
+    /* inherits color from parent */
+}
+
+/* Example 4: !important */
+#important {
+    color: pink;
+}
+
+.force {
+    color: black !important;
+    /* !important wins */
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Cascade, Inheritance & Specificity Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>CSS Cascade, Inheritance & Specificity Demo</h1>
+
+  <h2>1. Cascade (order)</h2>
+  <p class="cascade">This text is red because the later rule wins.</p>
+
+  <h2>2. Specificity</h2>
+  <p id="unique" class="specificity">This text is purple because ID has highest specificity.</p>
+
+  <h2>3. Inheritance</h2>
+  <div class="parent">
+    Parent is brown
+    <div class="child">Child is also brown (inherits)</div>
+  </div>
+
+  <h2>4. !important</h2>
+  <p id="important" class="force">This text is black because !important wins.</p>
+</body>
+</html>
