@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+    color: darkblue;
+}
+
+.example {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: #f9f9f9;
+}
+
+/* Absolute Units */
+.px {
+    font-size: 16px;
+}
+
+.cm {
+    font-size: 1cm;
+}
+
+.mm {
+    font-size: 10mm;
+}
+
+.in {
+    font-size: 1in;
+}
+
+
+/* Relative Units */
+.em {
+    font-size: 2em;
+}
+
+.rem {
+    font-size: 2rem;
+}
+
+.percent {
+    font-size: 120%;
+}
+
+.vw {
+    font-size: 5vw;
+}
+
+.vh {
+    font-size: 5vh;
+}
+
+.vmin {
+    font-size: 5vmin;
+}
+
+.vmax {
+    font-size: 5vmax;
+}
+
+
+/* For nested em example */
+.parent {
+    font-size: 20px;
+    border: 1px dashed #666;
+    padding: 10px;
+}
+
+.child-em {
+    font-size: 2em;
+}
