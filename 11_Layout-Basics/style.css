@@ -1,0 +1,38 @@
+.box {
+    background: lightblue;
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Different display types */
+.inline {
+    display: inline;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+}
+
+.hidden {
+    visibility: hidden;
+    /* Takes up space but not visible */
+}
+
+.none {
+    display: none;
+    /* Completely removed from layout */
+}
+
+/* Extra styles for layout clarity */
+.container {
+    border: 2px dashed gray;
+    padding: 10px;
+    margin: 20px 0;
+}
