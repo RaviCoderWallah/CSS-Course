@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Queries By HeyCoderJi</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- file trigger when screen size small then 800px  -->
+    <link rel="stylesheet" href="small.css" media="(max-width: 800px)">
+
 </head>
+
 <body>
-    
+ <h1>Media Queries in CSS</h1>
+  <p>
+    Media queries are a feature in CSS that allow developers to apply styles based on the 
+    conditions of the device, such as screen size, resolution, or orientation. 
+    They are mainly used to create <strong>responsive web designs</strong> that 
+    adapt to different devices like mobiles, tablets, and desktops.
+  </p>
+
+  <h2>Types of Media Queries</h2>
+  <ul>
+    <li>
+      <strong>All:</strong> Default type, applies to all devices.
+    </li>
+    <li>
+      <strong>Screen:</strong> Targets computer screens, tablets, and smartphones.
+    </li>
+    <li>
+      <strong>Print:</strong> Applies styles when printing a page.
+    </li>
+    <li>
+      <strong>Speech:</strong> Used for screen readers that read content aloud.
+    </li>
+  </ul>
+
+  <h2>Max-width</h2>
+  <p>
+    The <code>max-width</code> rule applies CSS styles when the device width 
+    is <em>less than or equal to</em> the specified value. 
+    It is often used for targeting smaller devices like mobiles.
+  </p>
+  <pre>
+    @media (max-width: 768px) {
+      body {
+        background-color: lightblue;
+      }
+    }
+  </pre>
+
+  <h2>Min-width</h2>
+  <p>
+    The <code>min-width</code> rule applies CSS styles when the device width 
+    is <em>greater than or equal to</em> the specified value. 
+    It is commonly used for larger devices like tablets and desktops.
+  </p>
+  <pre>
+    @media (min-width: 1024px) {
+      body {
+        background-color: lightgreen;
+      }
+    }
+  </pre>
 </body>
+
 </html>

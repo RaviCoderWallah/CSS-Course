@@ -1,0 +1,65 @@
+h1{
+    font-size: 30px;
+    color: orange;
+    text-decoration: underline;
+}
+
+h2{
+    font-size: 20px;
+}
+
+p{
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+/* greater than 600px */
+ /* Mobile first approach  */
+
+@media screen and (min-width: 600px ) { 
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 800px ) { 
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+
+
+
+/* Smaller than 600px */
+
+/* Desktop first approach  */
+
+/* @media screen and (max-width: 800px) { 
+  h1{
+    font-size: 40px;
+  }
+}
+
+
+@media screen and (max-width: 600px) { 
+  h1{
+    font-size: 30px;
+  }
+} */
+
+
+
